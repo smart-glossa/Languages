@@ -1,0 +1,1175 @@
+https://smartglossasoft.slack.com
+
+
+HTML (Hypertext Markup Language)
+
+
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+	command line
+
+<!DOCTYPE html>
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments are not displayed in the browser -->
+
+	<head> Tag
+<head>
+  <title>Title of the document</title>
+</head>
+
+<title>
+<style>
+<base>
+<link>
+<meta>
+<script>
+<noscript>
+
+	<title> Tag	
+
+<title>HTML Reference</title>
+
+		<body> Tag
+<body>
+The content of the document......
+</body>
+
+Attribute		Value			Description
+
+alink		color		Not supported in HTML5.Specifies the color of an active link in a document
+background	URL		Not supported in HTML5.Specifies a background image for a document
+bgcolor		color		Not supported in HTML5.Specifies the background color of a document
+link		color		Not supported in HTML5.Specifies the color of unvisited links in a document
+text		color		Not supported in HTML5.Specifies the color of the text in a document
+vlink		color		Not supported in HTML5.Specifies the color of visited links in a document
+
+	<h1> to <h6> Tags
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+Attribute		Value			Description
+
+align		left
+center
+right
+justify			Not supported in HTML5.Specifies the alignment of a heading
+
+		<p> Tag
+
+<p>This is some text in a paragraph.</p>
+<p align="center">paragraph</p>
+
+Attribute		Value			Description
+
+align		left
+right
+center
+justify			Not supported in HTML5.Specifies the alignment of the text within a paragraph
+
+	<br> Tag
+
+
+	<aside> Tag
+
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+	<hr> Tag
+
+<hr align="left" width="50%">
+_______________________________
+
+Attribute		Value			Description
+
+align		left
+center
+right				Not supported in HTML5.Specifies the alignment of a <hr> element
+noshade		noshade		Not supported in HTML5.Specifies that a <hr> element should render in one solid color (noshaded), instead of a shaded color
+Size		pixels		Not supported in HTML5.Specifies the height of a <hr> element
+width		pixels%		Not supported in HTML5.Specifies the width of a <hr> element
+
+	Text Formatting
+
+Tag	Description
+
+<b>	Defines bold text
+<em>	Defines emphasized text 
+<i>	Defines italic text
+<small>	Defines smaller text
+<strong>	Defines important text
+<sub>	Defines subscripted text
+<sup>	Defines superscripted text
+<ins>	Defines inserted text
+<del>	Defines deleted text
+<mark>	Defines marked/highlighted text
+	
+	<b> Tag
+
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+	<em> Tag
+
+<em>Emphasized text</em>
+
+	<i>Tag
+
+<p>He named his car <i>The lightning</i>, because it was very fast.</p>
+
+	<big>Tag
+
+<big>This text is bigger.</big>
+
+	<small>Tag
+
+<h2>HTML <small>Small</small> Formatting</h2>
+
+	<mark>Tag
+
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+
+
+	<del>Tag
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+	<s>Tag
+
+<s>My car is blue.</s>
+
+	<ins>Tag
+
+<p>My favorite <ins>color</ins> is red.</p>
+		
+	<sub>Tag
+
+<p>This is <sub>subscripted</sub> text.</p>
+	
+	<sup>Tag
+
+<p>This is <sup>superscripted</sup> text.</p>
+
+	<ins>Tag
+	
+<ins>red</ins>
+
+		<u>Tag
+<u>red</u>
+
+	<code> Tag
+
+<code>A piece of computer code</code><br>
+
+	<kbd>Tag
+<kbd>Keyboard input</kbd>
+
+	<pre> Tag
+
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+
+	<article> Tag
+
+<article>
+  <h1>Google Chrome</h1>
+  <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+</article>
+	
+	<address> Tag
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+	<abbr> Tag		
+
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+	<acronym> Tag
+
+Can I get this <acronym title="as soon as possible">ASAP</acronym>?
+
+
+	 <aside> Tag
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+	<base> Tag
+
+<head>
+  <base href="http://www.w3schools.com/images/" target="_blank">
+</head>
+
+
+Attribute		Value			Description
+
+href		URL		Specifies the base URL for all relative URLs in the page
+target		_blank
+		_parent
+		_self
+		_top
+		framename	Specifies the default target for all hyperlinks and forms in the page
+
+	<basefont> Tag
+
+<head>
+<basefont color="red" size="5">
+</head>
+
+
+	 <q> Tag
+
+<q>Build a future where people live in harmony with nature.</q>
+
+	 <blockquote> Tag
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+	
+	<cite> Tag
+	
+<cite>The Scream</cite>
+
+	 <font> Tag
+
+<p><font size="2" color="blue">This is some text!</font></p>
+
+<p><font face="verdana" color="green">This is some text!</font></p>
+
+<p><strong>Note:</strong> The font element is not supported in HTML5. Use CSS instead.</p>
+
+Attribute		Value				Description
+
+color		rgb(x,x,x)#xxxxxxcolorname	Not supported in HTML5.Specifies the color of text
+face		font_family		Not supported in HTML5.Specifies the font of text
+size		number			Not supported in HTML5.Specifies the size of text
+
+		<style> Tag
+<style>
+h1 {color:red;}
+p {color:blue;}
+</style>
+
+
+Attribute		Value			Description
+
+media		media_query	Specifies what media/device the media resource is optimized for
+scoped		scoped		Specifies that the styles only apply to this element's parent element and that element's child elements
+type		text/css		Specifies the media type of the <style> tag
+
+	<embed> Tag
+
+<embed src="helloworld.swf">
+
+Attribute		Value			Description
+
+height		pixels		Specifies the height of the embedded content
+src		URL		Specifies the address of the external file to embed
+type		media_type	Specifies the media type of the embedded content
+width		pixels		Specifies the width of the embedded content
+
+	<footer> Tag
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+</footer>
+
+	<header> Tag
+<header>
+    <h1>Most important heading here</h1>
+</header>
+
+	<meta> Tag
+<head>
+  <meta charset="UTF-8">
+
+	<main> Tag
+
+<main>
+  <h1>Web Browsers</h1>
+  <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
+</main>
+		
+	<menu> Tag
+
+<menu type="context" id="mymenu">
+  <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png">
+  </menuitem>
+
+Attribute		Value			Description
+
+label		text		Specifies a visible label for the menu
+type		list
+toolbar
+context				Specifies which type of menu to display
+
+	<a> Tag
+
+<a href="http://www.w3schools.com">Visit W3Schools.com!</a>
+
+Attribute		Value			Description
+
+charset		char_encoding	Not supported in HTML5.Specifies the character-set of a linked document
+coords		coordinates	Not supported in HTML5.Specifies the coordinates of a link
+download		filename		Specifies that the target will be downloaded when a user clicks on the hyperlink
+href		URL		Specifies the URL of the page the link goes to
+hreflang		language_code	Specifies the language of the linked document
+media		media_query	Specifies what media/device the linked document is optimized for
+name		section_name	Not supported in HTML5. Use the global id attribute instead.Specifies the name of an anchor
+rel		alternate
+		author
+		bookmark
+		external
+		help
+		license
+		next
+		nofollow
+		noreferrer
+		noopener
+		prev
+		search
+		tag		Specifies the relationship between the current document and the linked document
+rev		text		Not supported in HTML5.Specifies the relationship between the linked document and the current document
+shape		default
+		rect
+		circle
+		poly		Not supported in HTML5.Specifies the shape of a link
+target		_blank
+		_parent
+		_self
+		_top
+		framename	Specifies where to open the linked document
+type		media_type	Specifies the media type of the linked document
+
+
+	<iframe> Tag
+
+<iframe src="http://www.w3schools.com"></iframe>
+
+Attribute		Value			Description
+align		left
+		right
+		top
+		middle
+		bottom		Not supported in HTML5.Specifies the alignment of an <iframe> according to surrounding elements
+frameborder	1
+		0		Not supported in HTML5.Specifies whether or not to display a border around an <iframe>
+height		pixels		Specifies the height of an <iframe>
+longdesc		URL		Not supported in HTML5.Specifies a page that contains a long description of the content of an <iframe>
+marginheight	pixels		Not supported in HTML5.Specifies the top and bottom margins of the content of an <iframe>
+marginwidth	pixels		Not supported in HTML5.Specifies the left and right margins of the content of an <iframe>
+name		text		Specifies the name of an <iframe>
+sandbox		allow-forms
+		allow-pointer-lock
+		allow-popups
+		allow-same-origin
+		allow-scripts
+		allow-top-navigation	Enables an extra set of restrictions for the content in an <iframe>
+scrolling		yes
+		no
+		auto		Not supported in HTML5.Specifies whether or not to display scrollbars in an <iframe>
+src		URL		Specifies the address of the document to embed in the <iframe>
+srcdoc		HTML_code	Specifies the HTML content of the page to show in the <iframe>
+width		pixels		Specifies the width of an <iframe>
+
+	<nav> Tag
+
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+
+	<img>Tag
+
+Attribute		Value			Description
+
+align		top
+		bottom
+		middle
+		left
+		right		Not supported in HTML5.Specifies the alignment of an image according to surrounding elements
+alt		text		Specifies an alternate text for an image
+border		pixels		Not supported in HTML5.Specifies the width of the border around an image
+crossorigin	anonymous use-credentials
+				Allow images from third-party sites that allow cross-origin access to be used with canvas
+height		pixels		Specifies the height of an image
+hspace		pixels		Not supported in HTML5.Specifies the whitespace on left and right side of an image
+ismap		ismap		Specifies an image as a server-side image-map
+longdesc		URL		Specifies a URL to a detailed description of an image
+sizes	 			Specifies image sizes for different page layouts
+src		URL		Specifies the URL of an image
+srcset		URL		Specifies the URL of the image to use in different situations
+usemap		#mapname	Specifies an image as a client-side image-map
+vspace		pixels		Not supported in HTML5.Specifies the whitespace on top and bottom of an image
+width		pixels		Specifies the width of an image
+
+		<area> Tag
+
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+
+Attribute		Value			Description
+
+alt		text		Specifies an alternate text for the area. Required if the href attribute is present
+coords		coordinates	Specifies the coordinates of the area
+download		filename		Specifies that the target will be downloaded when a user clicks on the hyperlink
+href		URL		Specifies the hyperlink target for the area
+hreflang		language_code	Specifies the language of the target URL
+media		media query	Specifies what media/device the target URL is optimized for
+nohref		value		Not supported in HTML5.Specifies that an area has no associated link
+rel		alternate
+		author
+		bookmark
+		help
+		license
+		next
+		nofollow
+		noreferrer
+		prefetch
+		prev
+		search
+		tag		Specifies the relationship between the current document and the target URL
+shape		default
+		rect
+		circle
+		poly		Specifies the shape of the area
+target		_blank
+		_parent
+		_self
+		_top
+		framename	Specifies where to open the target URL
+type		media_type	Specifies the media type of the target URL
+
+
+	<iframe> Tag
+	
+<iframe src="http://www.w3schools.com">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+Attribute		Value			Description
+
+align		left
+		right
+		top
+		middle
+		bottom		Not supported in HTML5.Specifies the alignment of an <iframe> according to surrounding elements
+frameborder	1
+		0		Not supported in HTML5.Specifies whether or not to display a border around an <iframe>
+height		pixels		Specifies the height of an <iframe>
+longdesc		URL		Not supported in HTML5.Specifies a page that contains a long description of the content of an <iframe>
+marginheight	pixels		Not supported in HTML5.Specifies the top and bottom margins of the content of an <iframe>
+marginwidth	pixels		Not supported in HTML5.Specifies the left and right margins of the content of an <iframe>
+name		text		Specifies the name of an <iframe>
+sandbox		allow-forms
+		allow-pointer-lock
+		allow-popups
+		allow-same-origin
+		allow-scripts
+		allow-top-navigation	Enables an extra set of restrictions for the content in an <iframe>
+scrolling		yes
+		no
+		auto		Not supported in HTML5.Specifies whether or not to display scrollbars in an <iframe>
+src		URL		Specifies the address of the document to embed in the <iframe>
+srcdoc		HTML_code	Specifies the HTML content of the page to show in the <iframe>
+width		pixels		Specifies the width of an <iframe>
+
+	<figure> Tag
+<figure>
+  <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+</figure>
+
+		<figcaption>Tag
+<figure>
+  <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption>
+</figure>
+
+
+	<fieldset> Tag
+<fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text"><br>
+    Email: <input type="text"><br>
+    Date of birth: <input type="text">
+  </fieldset>
+</form>
+
+Attribute		Value			Description
+
+disabled		disabled		Specifies that a group of related form elements should be disabled
+form		form_id		Specifies one or more forms the fieldset belongs to
+name		text		Specifies a name for the fieldset
+
+
+	<legend> Tag
+
+ <legend>Personalia:</legend>
+
+Attribute		Value			Description
+
+align		top
+		bottom
+		left
+		right		Not supported in HTML5.Specifies the alignment of the caption
+
+		<ul> Tag
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Attribute		Value			Description
+
+compact		compact		Not supported in HTML5.Specifies that the list should render smaller than normal
+type		disc
+		square
+		circle		Not supported in HTML5.Specifies the kind of marker to use in the list
+
+		<ol>Tag
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+Attribute		Value			Description
+
+compact		compact		Not supported in HTML5.Specifies that the list should render smaller than normal
+reversed		reversed		Specifies that the list order should be descending (9,8,7...)
+start		number		Specifies the start value of an ordered list
+type		1
+		A
+		a
+		I
+		i		Specifies the kind of marker to use in the list
+
+
+		<li> Tag
+
+Attribute		Value			Description
+
+type		1
+		A
+		a
+		I
+		i
+		disc
+		square
+		circle		Not supported in HTML5.Specifies which kind of bullet point will be used
+value		number		Specifies the value of a list item. The following list items will increment from that number (only for <ol> lists)
+
+		
+	<bdi>Tag
+
+ <li>User <bdi>hrefs</bdi>: 60 points</li>
+ <li>User <bdi>jdoe</bdi>: 80 points</li>
+	
+	<bdo>Tag
+
+<bdo dir="rtl">
+This text will go right-to-left.
+</bdo>
+
+Attribute		Value		 	 Description
+
+dir		ltr
+rtl		Required		 Specifies the text direction of the text inside the <bdo> element
+
+		<dl>,<dt>,<dd>Tag
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+		<dir> Tag
+<dir>
+  <li>html</li>
+  <li>xhtml</li>
+  <li>css</li>
+</dir>
+
+Attribute		Value			Description
+
+compact		compact		Not supported in HTML5.Specifies that the list should render smaller than normal
+
+	
+		<table> Tag
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+Attribute		Value			Description
+
+align		left
+		center
+		right		Not supported in HTML5.Specifies the alignment of a table according to surrounding text
+bgcolor		rgb(x,x,x)
+		#xxxxxx
+		colorname	Not supported in HTML5.Specifies the background color for a table
+border		1
+		0		Not supported in HTML5.Specifies whether or not the table is being used for layout purposes
+cellpadding	pixels		Not supported in HTML5.Specifies the space between the cell wall and the cell content
+cellspacing	pixels		Not supported in HTML5.Specifies the space between cells
+frame		void
+		above
+		below
+		hsides
+		lhs
+		rhs
+		vsides
+		box
+		border		Not supported in HTML5.Specifies which parts of the outside borders that should be visible
+rules		none
+		groups
+		rows
+		cols
+		all		Not supported in HTML5.Specifies which parts of the inside borders that should be visible
+sortable		sortable		Specifies that the table should be sortable
+summary		text		Nott supported in HTML5.Specifies a summary of the content of a table
+width		pixels
+		%		Not supported in HTML5.Specifies the width of a table
+
+	<tr> Tag
+<tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+
+Attribute		Value			Description
+
+align		right
+		left
+		center
+		justify
+		char		Not supported in HTML5.Aligns the content in a table row
+bgcolor		rgb(x,x,x)
+		#xxxxxx
+		colorname	Not supported in HTML5.Specifies a background color for a table row
+char		character		Not supported in HTML5.Aligns the content in a table row to a character
+charoff		number		Not supported in HTML5.Sets the number of characters the content will be aligned from the character specified by the char attribute
+valign		top
+		middle
+		bottom
+		baseline		Not supported in HTML5.Vertical aligns the content in a table row
+
+	<th> Tag
+
+<th>Savings</th>
+
+Attribute		Value			Description
+
+abbr		text		Specifies an abbreviated version of the content in a header cell
+align		left
+		right
+		center
+		justify
+		char		Not supported in HTML5.Aligns the content in a header cell
+axis		category_name	Not supported in HTML5.Categorizes header cells
+bgcolor		rgb(x,x,x)
+		#xxxxxx
+		colorname	Not supported in HTML5.Specifies the background color of a header cell
+char		character		Not supported in HTML5.Aligns the content in a header cell to a character
+charoff		number	 	Not supported in HTML5.Sets the number of characters the content will be aligned from the character specified by the char attribute
+colspan		number		Specifies the number of columns a header cell should span
+headers		header_id		Specifies one or more header cells a cell is related to
+height		pixels
+		%		Not supported in HTML5.Sets the height of a header cell
+nowrap		nowrap		Not supported in HTML5.Specifies that the content inside a header cell should not wrap
+rowspan		number		Specifies the number of rows a header cell should span
+scope		col
+		colgroup
+		row
+		rowgroup		Specifies whether a header cell is a header for a column, row, or group of columns or rows
+sorted		reversednumber
+		reversed number
+		number reversed	Defines the sort direction of a column
+valign		top
+		middle
+		bottom
+		baseline		Not supported in HTML5.Vertical aligns the content in a header cell
+width		pixels
+		%		Not supported in HTML5.Specifies the width of a header cell
+
+		
+	<caption>Tag
+
+<caption>Monthly savings</caption>
+
+Attribute		Value			Description
+
+align		left
+		right
+		top
+		bottom		Not supported in HTML5.Defines the alignment of the caption
+		
+
+	<col><colgrou> Tag
+
+<colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+
+Attribute		Value			Description
+
+align		left
+		right
+		center
+		justify
+		char		Not supported in HTML5.Specifies the alignment of the content related to a <col> element
+char		character		Not supported in HTML5.Specifies the alignment of the content related to a <col> element to a character
+charoff		number		Not supported in HTML5.Specifies the number of characters the content will be aligned from the character specified by the char attribute
+span		number		Specifies the number of columns a <col> element should span
+valign		top
+		middle
+		bottom
+		baseline		Not supported in HTML5.Specifies the vertical alignment of the content related to a <col> element
+width		%
+		pixels
+		relative_length	Not supported in HTML5.Specifies the width of a <col> element
+
+	<dialog> Tag
+
+<th>January <dialog open>This is an open dialog window</dialog></th>
+
+Attribute		Value			Description
+
+open		open		Specifies that the dialog element is active and that the user can interact with it
+
+
+	<frameset> Tag
+
+<frameset cols="25%,50%,25%">
+
+
+Attribute		Value			Description
+cols		pixels
+		%
+		*		Not supported in HTML5.Specifies the number and size of columns in a frameset
+rows		pixels
+		%
+		*		Not supported in HTML5.Specifies the number and size of rows in a frameset
+
+	 <frame> </noframes>Tag
+
+<frameset cols="25%,50%,25%">
+  <frame src="frame_a.htm">
+  <frame src="frame_b.htm">
+  <frame src="frame_c.htm">
+</frameset>
+
+
+Attribute		Value			Description
+
+frameborder	0
+		1		Not supported in HTML5.Specifies whether or not to display a border around a frame
+longdesc		URL		Not supported in HTML5.Specifies a page that contains a long description of the content of a frame
+marginheight	pixels		Not supported in HTML5.Specifies the top and bottom margins of a frame
+marginwidth	pixels		Not supported in HTML5.Specifies the left and right margins of a frame
+name		text		Not supported in HTML5.Specifies the name of a frame
+noresize		noresize		Not supported in HTML5.Specifies that a frame is not resizable
+scrolling		yes
+		no
+		auto		Not supported in HTML5.Specifies whether or not to display scrollbars in a frame
+src		URL		Not supported in HTML5.Specifies the URL of the document to show in a frame
+	
+	<audio> Tag
+
+Attribute		Value			Description
+autoplay		autoplay		Specifies that the audio will start playing as soon as it is ready
+controls		controls		Specifies that audio controls should be displayed (such as a play/pause button etc)
+loop		loop		Specifies that the audio will start over again, every time it is finished
+muted		muted		Specifies that the audio output should be muted
+preload		auto
+		metadata
+		none		Specifies if and how the author thinks the audio should be loaded when the page loads
+src		URL		Specifies the URL of the audio file
+
+MIME Types for Audio Formats
+
+Format		  MIME-type
+MP3		audio/mpeg
+Ogg		audio/ogg
+Wav		audio/wav
+
+		<source> Tag
+
+ <source src="horse.ogg" type="audio/ogg">
+
+Attribute		Value			Description
+
+src		URL		Required when <source> is used in <audio> and <video>. Specifies the URL of the media file
+srcset		URL		Required when <source> is used in <picture>. Specifies the URL of the image to use in different situations
+media		media_query	Accepts any valid media query that would normally be defined in a CSS
+sizes	 			Specifies image sizes for different page layouts
+type		MIME-type	Specifies the MIME-type of the resource
+
+		<video> Tag
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+MIME Types for Video Formats
+
+Format		MIME-type
+MP4		video/mp4
+WebM		video/webm
+Ogg		video/ogg
+
+
+Attribute		Value		Description
+
+autoplay		autoplay		Specifies that the video will start playing as soon as it is ready
+controls		controls		Specifies that video controls should be displayed (such as a play/pause button etc).
+height		pixels		Sets the height of the video player
+loop		loop		Specifies that the video will start over again, every time it is finished
+muted		muted		Specifies that the audio output of the video should be muted
+poster		URL		Specifies an image to be shown while the video is downloading, or until the user hits the play button
+preload		auto
+		metadata
+		none		Specifies if and how the author thinks the video should be loaded when the page loads
+src		URL		Specifies the URL of the video file
+width		pixels		Sets the width of the video player
+
+	<form> Tag
+
+Attribute		Value		Description
+
+accept		file_type		Not supported in HTML5.Specifies a comma-separated list of file types  that the server accepts (that can be submitted through the file upload)
+accept-charset	character_set	Specifies the character encodings that are to be used for the form submission
+action		URL		Specifies where to send the form-data when a form is submitted
+autocomplete	on
+		off		Specifies whether a form should have autocomplete on or off
+enctype		application/x-www-form-urlencoded
+		multipart/form-data
+		text/plain		Specifies how the form-data should be encoded when submitting it to the server (only for method="post")
+method		get
+		post		Specifies the HTTP method to use when sending form-data
+name		text		Specifies the name of a form
+novalidate		novalidate		Specifies that the form should not be validated when submitted
+target		_blank
+		_self
+		_parent
+		_top		Specifies where to display the response that is received after submitting the form
+
+		<input> Tag
+
+First name: <input type="text" name="fname"><br>
+
+
+Attribute		Value			Description
+accept		file_extension
+		audio/*
+		video/*
+		image/*
+		media_type	Specifies the types of files that the server accepts (only for type="file")
+align		left
+		right
+		top
+		middle
+		bottom		Not supported in HTML5.Specifies the alignment of an image input (only for type="image")
+alt		text		Specifies an alternate text for images (only for type="image")
+autocomplete	on
+		off		Specifies whether an <input> element should have autocomplete enabled
+autofocus		autofocus		Specifies that an <input> element should automatically get focus when the page loads
+checked		checked		Specifies that an <input> element should be pre-selected when the page loads (for type="checkbox" or type="radio")
+dirname		inputname.dir	Specifies that the text direction will be submitted
+disabled		disabled		Specifies that an <input> element should be disabled
+form		form_id		Specifies one or more forms the <input> element belongs to
+formaction	URL		Specifies the URL of the file that will process the input control when the form is submitted (for type="submit" and type="image")
+formenctype	application/x-www-form-urlencoded
+		multipart/form-data
+		text/plain		Specifies how the form-data should be encoded when submitting it to the server (for type="submit" and type="image")
+formmethod	get	
+		post		Defines the HTTP method for sending data to the action URL (for type="submit" and type="image")
+formnovalidate	formnovalidate	Defines that form elements should not be validated when submitted
+formtarget		_blank
+		_self
+		_parent
+		_top
+		framename	Specifies where to display the response that is received after submitting the form (for type="submit" and type="image")
+height		pixels		Specifies the height of an <input> element (only for type="image")
+list		datalist_id		Refers to a <datalist> element that contains pre-defined options for an <input> element
+max		number
+		date		Specifies the maximum value for an <input> element
+maxlength		number		Specifies the maximum number of characters allowed in an <input> element
+min		number
+		date		Specifies a minimum value for an <input> element
+multiple		multiple		Specifies that a user can enter more than one value in an <input> element
+name		text		Specifies the name of an <input> element
+pattern		regexp		Specifies a regular expression that an <input> element's value is checked against
+placeholder	text		Specifies a short hint that describes the expected value of an <input> element
+readonly		readonly		Specifies that an input field is read-only
+required		required		Specifies that an input field must be filled out before submitting the form
+size		number		Specifies the width, in characters, of an <input> element
+src		URL		Specifies the URL of the image to use as a submit button (only for type="image")
+step		number		Specifies the legal number intervals for an input field
+type		button
+		checkbox
+		color
+		date 
+		datetime-local 
+		email 
+		file	
+		hidden
+		image
+		month 
+		number 
+		password	
+		radio
+		range 
+		reset
+		search
+		submit
+		tel
+		text
+		time 
+		url
+		week		Specifies the type <input> element to display
+value		text		Specifies the value of an <input> element
+ 
+width		pixels		Specifies the width of an <input> element (only for type="image")
+
+	<textarea> Tag
+
+<textarea rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+</textarea>
+
+
+Attribute		Value			Description
+
+autofocus		autofocus		Specifies that a text area should automatically get focus when the page loads
+cols		number		Specifies the visible width of a text area
+dirname		textareaname.dir	Specifies that the text direction of the textarea will be submitted
+disabled		disabled		Specifies that a text area should be disabled
+form		form_id		Specifies one or more forms the text area belongs to
+maxlength		number		Specifies the maximum number of characters allowed in the text area
+name		text		Specifies a name for a text area
+placeholder	text		Specifies a short hint that describes the expected value of a text area
+readonly		readonly		Specifies that a text area should be read-only
+required		required		Specifies that a text area is required/must be filled out
+rows		number		Specifies the visible number of lines in a text area
+wrap		hard
+		soft		Specifies how the text in a text area is to be wrapped when submitted in a form
+
+	<button> Tag
+
+Attribute		Value			Description
+
+autofocus		autofocus		Specifies that a button should automatically get focus when the page loads
+disabled		disabled		Specifies that a button should be disabled
+form		form_id		Specifies one or more forms the button belongs to
+formaction	URL		Specifies where to send the form-data when a form is submitted. Only for type="submit"
+formenctype	application/x-www-form-urlencoded
+		multipart/form-data
+		text/plain		Specifies how form-data should be encoded before sending it to a server. Only for type="submit"
+formmethod	get
+		post		Specifies how to send the form-data (which HTTP method to use). Only for type="submit"
+formnovalidate	formnovalidate	Specifies that the form-data should not be validated on submission. Only for type="submit"
+formtarget		_blank
+		_self
+		_parent
+		_top
+		framename	Specifies where to display the response after submitting the form. Only for type="submit"
+name		name		Specifies a name for the button
+type		button
+		reset
+		submit		Specifies the type of button
+value		text		Specifies an initial value for the button
+	
+	<summary>Tag
+
+<details>
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+
+	<tbody> Tag
+<tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+</tr>
+</tbody> 
+
+Attribute		Value			Description
+
+align		right
+		left
+		center
+		justify
+		char		Not supported in HTML5.Aligns the content inside the <tbody> element
+char		character		Not supported in HTML5.Aligns the content inside the <tbody> element to a character
+charoff		number		Not supported in HTML5.Sets the number of characters the content inside the <tbody> element will be aligned from the character specified by the char attribute
+valign		top
+		middle
+		bottom
+		baseline		Not supported in HTML5. Vertical aligns the content inside the <tbody> element
+
+	<link> Tag
+
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+Attribute		Value			Description
+
+charset		char_encoding	Not supported in HTML5.Specifies the character encoding of the linked document
+crossorigin	anonymous
+		use-credentials	Specifies how the element handles cross-origin requests
+href		URL		Specifies the location of the linked document
+hreflang		language_code	Specifies the language of the text in the linked document
+media		media_query	Specifies on what device the linked document will be displayed
+rel		alternate
+		author
+		dns-prefetch
+		help
+		icon
+		license
+		next
+		pingback
+		preconnect
+		prefetch
+		preload
+		prerender
+		prev
+		search
+		stylesheet	Required. Specifies the relationship between the current document and the linked document
+rev		reversed relationshipNot supported in HTML5.Specifies the relationship between the linked document and the current document
+sizes		HeightxWidth
+		any		Specifies the size of the linked resource. Only for rel="icon"
+target		_blank
+		_self
+		_top
+		_parent
+		frame_name	Not supported in HTML5.Specifies where the linked document is to be loaded
+type		media_type	Specifies the media type of the linked document
+
+
+	<option>Tag
+
+Attribute		Value			Description
+
+disabled		disabled		Specifies that an option should be disabled
+label		text		Specifies a shorter label for an option
+selected		selected		Specifies that an option should be pre-selected when the page loads
+value		text		Specifies the value to be sent to a server
+
+	<optgroup> Tag
+
+<optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+
+Attribute		Value			Description
+
+disabled		disabled		Specifies that an option-group should be disabled
+label		text		Specifies a label for an option-group
+
+		<picture>Tag
+<picture>
+  <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+
+	 <script>Tag
+
+<srcipt>document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+
+	<section>Tag
+<section>
+  <h1>WWF</h1>
+  <p>The World Wide Fund for Nature (WWF) is....</p>
+</section>
+
+
+	 <select> Tag
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+Attribute		Value			Description
+
+autofocus		autofocus		Specifies that the drop-down list should automatically get focus when the page loads
+disabled		disabled		Specifies that a drop-down list should be disabled
+form		form_id		Defines one or more forms the select field belongs to
+multiple		multiple		Specifies that multiple options can be selected at once
+name		name		Defines a name for the drop-down list
+required		required		Specifies that the user is required to select a value before submitting the form
+size		number		Defines the number of visible options in a drop-down list
+
+
+	<track> Tag
+
+<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+
+Attribute		Value			Description
+
+default		default		Specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
+kind		captions
+		chapters
+		descriptions
+		metadata
+		subtitles		Specifies the kind of text track
+label		text		Specifies the title of the text track
+src		URL		Required. Specifies the URL of the track file
+srclang		language_code	Specifies the language of the track text data (required if kind="subtitles")
+
+	 <wbr> Tag
+
+<wbr>Http<wbr>
