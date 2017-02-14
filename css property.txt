@@ -1,0 +1,108 @@
+Cascading Style Sheets
+
+Three Ways to Insert CSS
+
+There are three ways of inserting a style sheet:
+
+External style sheet
+Internal style sheet
+Inline style
+
+	External Style Sheet
+External style sheet, you can change the look of an entire website by changing just one file!
+Example
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+	Internal Style Sheet
+
+An internal style sheet may be used if one single page has a unique style.
+
+<head>
+<style>
+body {
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+} 
+</style>
+</head>
+
+	Inline Styles
+
+An inline style may be used to apply a unique style for a single element.
+
+
+<h1 style="color:blue;margin-left:30px;">This is a heading</h1>
+
+
+	CSS Backgrounds
+
+The CSS background properties are used to define the background effects for elements.
+
+CSS background properties:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+
+	Background Color
+
+The background-color property specifies the background color of an element.
+
+body {
+    background-color: lightblue;
+}
+
+	Background Image
+
+The background-image property specifies an image to use as the background of an element.
+
+body {
+    background-image: url("paper.gif");
+}
+
+	Background Image - Repeat
+
+body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+}
+
+
+	Background-position
+
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+	Background-attachment
+
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+
+
+	Border Images
+
+Property				Description
+
+border-image		A shorthand property for setting all the border-image-* properties
+border-image-source	Specifies the path to the image to be used as a border
+border-image-slice		Specifies how to slice the border image
+border-image-width		Specifies the widths of the border image
+border-image-outset		Specifies the amount by which the border image area extends beyond the border box
+border-image-repeat		Specifies whether the border image should be repeated, rounded or stretched
