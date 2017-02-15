@@ -1,0 +1,327 @@
+	JavaScript 
+JavaScript is one of the 3 languages all web developers must learn:
+
+   1. HTML to define the content of web pages
+
+   2. CSS to specify the layout of web pages
+
+   3. JavaScript to program the behavior of web pages
+
+JavaScript : for beginners and professionals is a solution of client side dynamic pages.
+
+JavaScript is an object-based scripting language that is lightweight and cross-platform.
+
+<html>
+<body>
+<h2>Welcome to JavaScript</h2>
+<script>
+document.write("Hello JavaScript by JavaScript");
+</script>
+</body>
+</html>
+
+	 Places to put JavaScript code
+
+1. Between the body tag of html
+2. Between the head tag of html
+3. In .js file (external javaScript)
+
+	 code between the body tag
+
+we have displayed the dynamic content using JavaScript. 
+
+<html>  
+<body>  
+<script type="text/javascript">  
+ alert("Hello Javatpoint");  
+</script>  
+</body>  
+</html>  
+
+
+	 code between the head tag
+JavaScript that is contained inside the head tag.
+
+<head>  
+<script type="text/javascript">  
+function msg(){  
+ alert("Hello Javatpoint");  
+}  
+</script>  
+</head>  
+
+	External JavaScript file
+
+We can create external JavaScript file and embed it in many html page.
+An external JavaScript file must be saved by .js extension. It is recommended to embed all 
+JavaScript files into a single file. It increases the speed of the webpage.
+
+
+mes.js
+
+function msg(){  
+ alert("Hello Javatpoint");  
+} 
+
+
+
+<html>  
+<head>  
+<script type="text/javascript" src="mes.js"></script>  
+</head>  
+<body>  
+
+		JavaScript Comment
+
+
+There are two types of comments in JavaScript.
+
+1. Single-line Comment
+2. Multi-line Comment
+
+	 Single-line Comment
+
+<script>  
+// It is single line comment  
+document.write("hello javascript");  
+</script>  
+
+	Multi-line Comment
+<script>  
+/* It is multi line comment.  
+It will not be displayed */  
+document.write("example of javascript multiline comment");  
+</script>  
+
+	JavaScript Variable	
+A JavaScript variable is simply a name of storage location.
+There are two types of variables in JavaScript : local variable and global variable.
+
+	Correct JavaScript variables
+
+var x = 10;  
+var _value="sonoo";  
+
+	Incorrect JavaScript variables
+
+var  123=30;  
+var *aa=320;  
+
+	JavaScript local variable
+
+A JavaScript local variable is declared inside block or function. It is accessible within the function or block only. 
+
+<script>  
+function abc(){  
+var x=10;		//local variable  
+}  
+</script>  
+
+	JavaScript global variable
+
+A JavaScript global variable is accessible from any function. A variable i.e.
+declared outside the function or declared with window object is known as global variable
+
+<script>  
+var data=200;//gloabal variable  
+function a(){  
+document.writeln(data);  
+}  
+function b(){  
+document.writeln(data);  
+}  
+a();//calling JavaScript function  
+b();  
+</script>  
+
+Javascript Data Types
+
+JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+
+1. Primitive data type
+2. Non-primitive (reference) data type
+
+	JavaScript primitive data types
+
+There are five types of primitive data types in JavaScript. They are as follows:
+
+Data Type			Description
+
+String		represents sequence of characters e.g. "hello"
+Number		represents numeric values e.g. 100
+Boolean		represents boolean value either false or true
+Undefined		represents undefined value
+Null		represents null i.e. no value at all
+
+
+	JavaScript non-primitive data types
+
+The non-primitive data types are as follows:
+
+Data Type			Description
+
+Object		represents instance through which we can access members
+Array		represents group of similar values
+RegExp		represents regular expression
+
+	JavaScript Operators
+
+JavaScript operators are symbols that are used to perform operations on operands
+
+There are following types of operators in JavaScript.
+
+1. Arithmetic Operators
+2. Comparison (Relational) Operators
+3. Bitwise Operators
+4. Logical Operators
+5. Assignment Operators
+6. Special Operators
+
+	JavaScript Arithmetic Operators
+
+Arithmetic operators are used to perform arithmetic operations on the operands. 
+
+Operator		Description		Example
+
++		Addition			10+20 = 30
+-		Subtraction		20-10 = 10
+*		Multiplication		10*20 = 200
+/		Division			20/10 = 2
+%		Modulus (Remainder)	20%10 = 0
+++		Increment			var a=10; a++; Now a = 11
+--		Decrement		var a=10; a--; Now a = 9
+
+
+	JavaScript Comparison Operators
+
+The JavaScript comparison operator compares the two operands. 
+
+Operator		Description		Example
+
+==		Is equal to		10==20 = false
+===		Identical (equal and of same type)10==20 = false
+!=		Not equal to		10!=20 = true
+!==		Not Identical		20!==20 = false
+>		Greater than		20>10 = true
+>=		Greater than or equal to	20>=10 = true
+<		Less than			20<10 = false
+<=		Less than or equal to	20<=10 = false
+
+			
+		JavaScript Bitwise Operators
+
+The bitwise operators perform bitwise operations on operands. 
+
+Operator		Description		Example
+
+&		Bitwise AND		(10==20 & 20==33) = false
+|		Bitwise OR		(10==20 | 20==33) = false
+^		Bitwise XOR		(10==20 ^ 20==33) = false
+~		Bitwise NOT		(~10) = -10
+<<		Bitwise Left Shift		(10<<2) = 40
+>>		Bitwise Right Shift		(10>>2) = 2
+>>>		Bitwise Right Shift with Zero	(10>>>2) = 2
+
+	JavaScript Logical Operators
+
+Operator		Description		Example
+
+&&		Logical AND	(10==20 && 20==33) = false
+||		Logical OR	(10==20 || 20==33) = false
+!		Logical Not	!(10==20) = true
+
+	JavaScript Assignment Operators
+
+Operator		Description		Example
+
+=		Assign		10+10 = 20
++=		Add and assign	var a=10; a+=20; Now a = 30
+-=		Subtract and assign	var a=20; a-=10; Now a = 10
+*=		Multiply and assign	var a=10; a*=20; Now a = 200
+/=		Divide and assign	var a=10; a/=2; Now a = 5
+%=		Modulus and assign	var a=10; a%=2; Now a = 0
+
+	JavaScript Special Operators
+
+Operator			Description
+
+(?:)		Conditional Operator returns value based on the condition. It is like if-else.
+,		Comma Operator allows multiple expressions to be evaluated as single statement.
+delete		Delete Operator deletes a property from the object.
+in		In Operator checks if object has the given property
+instanceof		checks if the object is an instance of given type
+new		creates an instance (object)
+typeof		checks the type of object.
+void		it discards the expression's return value.
+yield		checks what is returned in a generator by the generator's iterator.
+
+	JavaScript If-else
+
+The JavaScript if-else statement is used to execute the code whether condition is true or false.
+ There are three forms of if statement in JavaScript.
+
+1. If Statement
+2. If else statement
+3. if else if statement	
+
+	JavaScript If statement
+
+It evaluates the content only if expression is true. The signature of JavaScript if statement is given below.
+
+syntax:
+
+if(expression){  
+//content to be evaluated  
+}  
+
+	JavaScript If...else Statement
+
+It evaluates the content whether condition is true of false. The syntax of JavaScript if-else statement is given below.
+
+syntax:
+
+if(expression){  
+//content to be evaluated if condition is true  
+}  
+else{  
+//content to be evaluated if condition is false  
+}  
+
+	JavaScript If...else if statement
+
+It evaluates the content only if expression is true from several expressions.
+The signature of JavaScript if else if statement is given below.
+
+syntax:
+
+if(expression1){  
+//content to be evaluated if expression1 is true  
+}  
+else if(expression2){  
+//content to be evaluated if expression2 is true  
+}  
+else if(expression3){  
+//content to be evaluated if expression3 is true  
+}  
+else{  
+//content to be evaluated if no expression is true  
+}  
+
+	JavaScript Switch
+
+The JavaScript switch statement is used to execute one code from multiple expressions.
+
+syntax:
+
+switch(expression){  
+case value1:  
+ code to be executed;  
+ break;  
+case value2:  
+ code to be executed;  
+ break;  
+......  
+  
+default:   
+ code to be executed if above values are not matched;  
+}  
