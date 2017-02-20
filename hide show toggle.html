@@ -1,0 +1,36 @@
+<html>
+    <head><title>hide show toggle</title>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+        <script type="text/javascript" lanuage="javascript">
+            $(document).ready(function(){
+                $("#b1").click(function(){
+                    $("p").hide();
+                });
+                
+                $("#b2").click(function(){
+                    $("p").show();
+                    $("p").css("color","green");
+                    
+                });
+                
+                $("#b3").click(function(){
+                    $("p").toggle();
+                    $("p").css("color","red");
+                    
+                });
+            });
+        </script>
+    </head>
+        <body>
+            <button id="b1">HIDE</button>
+            <button id="b2">SHOW</button>
+            <button id="b3">Toggle</button>
+            <p>This is jQuery button action used<br>
+            by the hide and show or toggle<br>
+            hide - any word is hide the comment<br>
+            show - any word is show<br>
+            toggle - hide and show two purpose is toogle<p>
+            
+            </body>
+</html>
