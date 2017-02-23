@@ -1,0 +1,47 @@
+html
+{
+    background: red;
+}
+body{
+    background: yellow;
+    height: 800px;
+    width: 600px;
+    margin: 0 auto;
+}
+#header
+{
+    height: 150px;
+    width: 100%;
+    background: green;
+}
+#he
+{
+    float:30px;
+    margin-left: 25%;
+    color:white;
+  }
+#nave
+{
+    height: 30px;
+    width: 100%;
+    background: blue;
+}
+#rig
+{
+    height: 590px;
+    width: 100%;
+    background:white;
+}
+#lef
+{
+   height: 100%;
+    width: 150px;
+    background: gray;
+    float: left;
+}
+#foo
+{
+   height: 30px;
+    width: 100%;
+    background: blue;  
+}
