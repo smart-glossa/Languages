@@ -1,32 +1,29 @@
-#div1
+
+html
 {
-    widows: 100px;
-    height: 100px
-    background-color:red;
-    color:aliceblue;
-    transform: translate(100px,100px);
-}
-html{
-background: gray;
+background:blue;
 }
 body{
-    background: block;
+    background:gray;
     color:white;
     height: 1500px;
     width: 800px;
     margin: 0 auto;
+}
+h1{
+    text-align: center;
 }
 .imgb
 {
 height: 250px;
 width: 100%;
 float:left;
-margin-bottom: 30px;
+margin-bottom:30px;
 }
 .gall
 {
     float:left;
-    margin-left: 50px;
+    margin-left:50px;
 }
 .box
 {
