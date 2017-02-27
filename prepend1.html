@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery-3.1.1.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("p").prepend("<b>Wel come to JQuery");
+            });
+            $("#b2").click(function(){
+                $("ol").prepend("<li>ITEM LIST</li>");
+            });
+        });
+    </script>
+    </head>
+    <body>
+        <p>design of html </p>
+        <p>developted by html</p>
+        <ol>
+        <li>list number</li>
+            <li>list number</li>
+            <li>list number</li>
+        </ol>
+        <button id="b1">paragraph</button>
+        <button id="b2">List oreder</button>
+    </body>
+</html>
