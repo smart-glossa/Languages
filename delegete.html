@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <style>
+            p
+            {
+                background-color: red;
+                color:white;
+            }
+        </style>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+    </head>
+    <body>
+        <p>This is single paragraph</p>
+        <script>
+            $("body").delegate("p","click",function(){
+                $(this).after("<P>wel come to jquery</p>");
+            })
+        </script>
+    </body>
+</html>
