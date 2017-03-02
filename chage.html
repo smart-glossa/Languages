@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            div{
+                color:blueviolet;
+            }
+        </style>
+        <title>change the value</title>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+    </head>
+    <body>
+        <select id="se" name="actors">
+            <option>apple</option>
+            <option selected="select">mango</option>
+            <option>banana</option>
+            <option>orange</option>
+            <option>fig</option>
+            <option>lime</option>
+            </select>
+        
+        <div id="log"></div>
+        <script>
+            $("select").change(function(){
+                document.getElementById("log").innerHTML="you selected:"+document.getElementById("se").value;
+            })
+        </script>
+    </body>
+</html>

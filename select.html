@@ -1,0 +1,28 @@
+<html lang="eng">
+    <meta charset="utf-8">
+    <title>the select method</title>
+    <style>
+        P{
+            color:red;
+        }
+        div
+        {
+            color:blue;
+        }
+    </style>
+    <head>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+    </head>
+    <body>
+        <p>the text is select the text information is hide the text is show</p>
+        <input type="text">
+        <input type="text">
+        <div></div>
+        <script>
+            $("input").select(function(){
+                $("div").text("some text was selected").show().fadeOut(1000);
+            })
+        </script>
+    </body>
+</html>

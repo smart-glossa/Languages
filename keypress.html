@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery-3.1.1.js">
+    </script>
+    <script>
+        i=0;
+        $(document).ready(function(){
+            $("input").keypress(function(){
+                $("span").text(i+=1);
+            });
+        });
+    </script>
+    </head>
+    <body>
+        type the text and number:<input type="text">
+        <p>type the number of key:<span>0</span></p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>mouseenter method</title>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("h1").mouseenter(function(){
+                    $("div").text("Mouse entered the text").show().fadeOut(2000);
+                })
+            })
+        </script>
+        </head>
+    <body>
+        <h1>The header is mouse move the text is hide the information</h1>
+        <div></div>
+    </body>
+    
+</html>

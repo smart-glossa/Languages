@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>select the multiple value</title>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+    </head>
+    <body>
+        <select name="frute" multiple="multiple">
+            <option>apple</option>
+            <option selected="selected">banana</option>
+            <option>fig</option>
+            <option selected="selected">mango</option>
+            <option>orange</option>
+            <option>lime</option>
+        </select>
+        <div></div>
+        <script>
+        $(select).chage(function(){
+        var str=" ";
+        $("selet option:selected").each(function(){
+        str +=$(this).text()+" ";
+        });
+        $("div").text(str);
+        })
+        </script>
+    </body>
+</html>

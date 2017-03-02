@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>bind method</title>
+        <style>
+            p
+            {
+            background: yellow;    
+                cursor: pointer;
+            }
+            p.over
+            {
+                background: green;
+            }
+            span
+            {
+                color:blue;
+            }
+        </style>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+        
+    </head>
+    <body>
+        <p>This is jquery bind method using the background color chane the event the method</p>
+        <span></span>
+        <script>
+            $("p").bind("click",function(event){
+                var str="("+event.pageX+","+event.pageY+")";
+                $("span").text("This is a double click on"+this.nodeName);
+                    });
+            $("p").bind("dblick",function(){
+                $("span").bind("mouseenter mouseleave", function(event){
+                    $(this).toggleClass("over");
+                });
+                
+                </script>
+    </body>
+    </html>

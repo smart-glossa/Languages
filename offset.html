@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery-3.1.1.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                var x=$("p").offset();
+                alert("Top:"+x.top+"Left:"+x.left);
+            });
+        });
+    </script>
+    </head>
+  
+  <p>This is offset the method is used in the alert message</p>  <button>offset</button>
+    
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>keyup method</title>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("input").keydown(function(){
+                    $("input").css("background-color", "green");
+                });
+                $(document).keyup(function(){
+                    $("input").css("background-color","white");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        Type the any text:<input type="text">
+    </body>
+</html>

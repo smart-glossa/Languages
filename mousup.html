@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-3.1.1.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("p").mousedown(function(){
+                    $("p").css("background-color","yellow");
+                });
+                $("p").mouseup(function(){
+                    $("p").css("background-color","pink");
+                });
+            });
+            
+        </script>
+    </head>
+    <body>
+        <p>paragraph is mousdown method</p>
+    </body>
+</html>
