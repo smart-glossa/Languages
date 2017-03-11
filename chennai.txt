@@ -1,0 +1,45 @@
+Front End: { Html, Css, Bootsrap, javascript, jquery,juery UI, Ajax}
+Back End:{Hadoop, or  No sql,MySql,}
+control: { Java, php, python}
+
+Language
+1.C
+2.C++
+3.Java
+
+Front end Develop
+1. Html
+2. Css
+3. Bootsrap
+4. javascript
+5. jquery,
+6.juery UI
+7. Ajax
+
+Back end Develop
+1.No Sql
+2.MySql
+3.Hadoop
+
+web Design
+1.Html
+2.Css
+3.Bootsrap
+
+Full stack development
+
+Javascript
+ 
+Android
+ 
+Ios developer
+
+project
+
+computer hardware concepts
+
+Level 1 march web development complet
+Level 2 march 31 website lance
+
+
+

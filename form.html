@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>form type</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    </head>
+    <body>
+        <div class="row well">
+            <div class="col-lg-12">
+                <div class="col-lg-6">
+                    <h2>vertical form and default</h2>
+                    <div class="form-group">
+                    <form role="form">
+                        <lable>User name:</lable>
+                        <input type="text" class="form-control">
+                        </div>
+                        <div class="from-group">
+                            <lable>Password:</lable>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox">Revember me</label>
+                            <label><input type="radio">Revember me</label>
+                        </div>
+                        <button class="btn btn-info">Log in</button>
+                    </div>
+                    </form>
+                    
+                <div class="col-lg-6">
+                    <h3>Horizontal-Form</h3>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="control-lable col-md-2">User name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" placeholder="user name">
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-2">Password</label>
+                                <div class="col-md-10">
+                                    <input type="password" class="form-control" placeholder="user password">
+                                </div>
+                            </div>
+                        <button class="col-sm-offset-2 col-sm-10 btn btn-info">Log in</button>    
+                        
+                    </form>
+                </div>
+                    
+                </div>
+        </div>
+        <div class="row well">
+            <div class="col-md-12 text-right">
+                <h3>Inline from</h3>
+                <form role="form" class="form-inline">
+                    <div class="form-group">
+                        <label>user name</label>
+                        <input type="text" class="form-control" placeholder="user name">
+                    </div>
+                    <div class="form-group">
+                        <label>password</label>
+                        <input type="password" class="form-control" placeholder="user password">
+                    </div>
+                    <dic class="checkbox">
+                        <label><input type="checkbox">Remeber me</label>
+                                           </dic>
+                    <button type="submit" class="btn btn-info">Log in</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
