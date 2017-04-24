@@ -1,1 +1,116 @@
+Html Tages
 
+S.no	Shortcuts		Why they do
+1	<html>		Main container
+2	<head>		The document header
+3	<title>		The document title
+4	<base>		Base URI to solve relative URIs
+5	<link>		Relational information for documents
+6	<meta>		Variable for the document
+7	<style>		Presentational attributes
+8	<body>		The document body
+9	<article>		Distributable content
+10	<section>		Defines a section
+11	<nav>		Navigational section
+12	<aside>		Content only slightly related
+13	<h1>		A level 1 heading
+14	<h2>		A level 2 heading
+15	<h3>		A level 3 heading
+16	<h4>		A level 4 heading
+17	<h5>		A level 5 heading
+18	<h6>		A level 6 heading
+19	<hgroup>		Groups consecutive headings
+20	<header>		The header of a section
+21	<footer>		The footer of a section
+22	<address>	Author’s contact information
+23	<p>		Paragraph
+24	<hr>		Content separator
+25	<pre>		Preformatted text block
+26	<blockquote>	Block level quotation
+27	<ol>		Ordered list
+28	<ul>		Unordered list
+29	<li>		List item
+30	<dl>		Description list
+31	<dt>		Term in a description list
+32	<dd>		Description in a description list
+33	<figure>		Self-contained information
+34	<figcaption>	Caption for a figure
+35	<main>		Main content of a section
+36	<div>		Generic container for blocks of text
+37	<a>		Hyperlink
+38	<em>		Text with emphasis
+39	<strong>		Text with strong emphasis
+40	<small>		Side commment
+41	<s>		Content no longer accurate or relevant
+42	<cite>		Citation or reference
+43	<q>		Inline quotation
+44	<dfn>		Term defined in the surrounding text
+45	<abbr>		Abbreviated term
+46	<ruby>		Ruby annotated text
+47	<rt>		Ruby annotation
+48	<rp>		Text to be ignored in ruby
+49	<data>		Machine-readable information
+50	<time>		Date and/or time
+51	<code>		Computer code
+52	<var>		Instance of a variable
+53	<samp>		A program’s sample output
+54	<kbd>		Text entered by users
+55	<sub>		Texto en subíndice
+56	<sup>		Texto en superíndice
+57	<i>		Text offset from the normal prose
+58	<b>		Text offset from its surrounding content
+59	<u>		Non-textual annotations
+60	<mark>		Marks text in another document
+61	<bdi>		Isolates text for bidirectional formatting
+62	<bdo>		Overrides the bidirectional algorithm
+63	<span>		Generic container for runs of text
+64	<br>		Line break
+65	<wbr>		Line break opportunity
+66	<ins>		Added text
+67	<del>		Deleted text
+68	<picture>		Multi-source image
+69	<img>		Image
+70	<iframe>		Nested browsing context
+71	<embed>		Inserts external applications
+72	<object>		Inserts external applications
+73	<param>		Parameter for an external application
+74	<video>		Video
+75	<audio>		Audio
+76	<source>		Alternative media resource
+77	<track>		Text tracks for videos
+78	<map>		Client-side image map
+79	<area>		Sector in an image map
+80	<table>		Table
+81	<caption>		The caption of a table
+82	<colgroup	>	Group of columns
+83	<col>		Sets attributes for columns
+84	<tbody>		The body of the table
+85	<thead>		The header of the table
+86	<tfoot>		The footer of the table
+87	<tr>		Row
+88	<td>		Regular cell
+89	<th>		Header cell
+90	<form>		Form
+91	<label>		Label for a control
+92	<input>		Input control
+93	<button>		Button
+94	<select>		List of options
+95	<datalist>		Suggestions for controls
+96	<optgroup>	Group of options in a list
+97	<option>		An option in list
+98	<textarea>	Multi-line text input
+99	<keygen>		Key pair generation control
+100	<output>		The output of a process
+101	<progress>	A task’s completion progress
+102	<meter>		A measurement
+103	<fieldset>		Group of controls
+104	<legend>		The caption of a group of controls
+105	<details>		Collapsable content
+106	<summary>	A summary for collapsable content
+107	<menu>		Menu
+108	<menuitem>	An item in a menu
+109	<dialog>		Dialog box
+110	<script>		Embeds scripts
+111	<noscript>	Alternative content for scripts
+112	<template>	Plantilla para información a agregar
+113	<canvas>		Container for dynamic bitmap graphics
